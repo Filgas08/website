@@ -52,10 +52,35 @@ input[type=text] {
     border-radius: 10px;
 }
 
+input[type=submit] {
+    font-size: 30px;
+    border: solid;
+    color: #282828;
+    background-color: #fbdbb2;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+input[type=number] {
+    font-size: 30px;
+    border: solid;
+    color: #fbdbb2;
+    background-color: #282828;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+}
+
 label {
   font-size: 50px;
 }
 
 div.team {
   border-bottom: groove;
+}
+
+div.data {
+  border-bottom: groove;
+  padding-bottom: 10px;
 }

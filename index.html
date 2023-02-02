@@ -15,20 +15,28 @@
             
             <div class="form">
                 <h2 class="domanda">Da che parte stai?</h2>
-                <form>
+                <form action="https://example.com" method="post">
                     <div class="team">
                     <input type="radio" value="eretico" id="eretico" name="team"><label for="eretico">Eretico :(</label>
                         <br>
                     <input type="radio" value="papa" id="papa" name="team"><label for="papa">Papa :D</label>
                     </div>
+                        
                         <br>
                         
+                    <div class="data">
                     <input type="text" placeholder="nome" id="nome" name="nome">
-                    <input type="text" placeholder="cognome" id="soprannome" name="soprannome">
+                    <input type="text" placeholder="cognome" id="cognome" name="cognome">
+                    <input type="number" placeholder="data di nascita" id="anno" name="anno">
                     
                     <br>
                     
-                    <input type="text" placeholder="provenienza" id="provenienza" name="provenienza" style="margin-top: 50px;">
+                    <input type="text" placeholder="provenienza" id="provenienza" name="provenienza" style="margin-top: 10px;">
+                    </div>
+                    
+                    <br>
+                    
+                    <input type="submit" Value="Invia">
                 </form>
             </div>
             
