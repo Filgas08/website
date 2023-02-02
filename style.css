@@ -1,0 +1,61 @@
+body {
+  color: #fbdbb2;
+  background-color: #282828;
+}
+
+.text {
+  text-align: left;
+  border: solid;
+  border-color: #98971a;
+  border-width: 1px;
+  font-size: 20px;
+}
+
+.main {
+  text-align: left;
+}
+
+.form{
+  text-align: initial;
+  margin: auto;
+}
+
+.domanda{
+  text-align: left;
+  font-size: 40px;
+}
+
+#title {
+  text-align: center;
+  border-bottom: double;
+  border-color: #98971a;
+  border-width: 10px;
+  color: #98971a;
+  font-size: 50px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    color: #fbdbb2;
+    background-color: #282828;
+}
+
+input[type=text] {
+    font-size: 30px;
+    border: solid;
+    color: #fbdbb2;
+    background-color: #282828;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+label {
+  font-size: 50px;
+}
+
+div.team {
+  border-bottom: groove;
+}
