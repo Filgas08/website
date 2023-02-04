@@ -27,7 +27,7 @@ h1.title {
   display: block;
   margin: 175px auto;
   max-width: 1000px;
-  min-width: 300px;
+  min-width: 100px;
   width: auto;
   font-size: 20px;
 }
