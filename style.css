@@ -1,75 +1,66 @@
 body {
-  color: #fbdbb2;
-  background-color: #282828;
-}
-
-.text {
-  text-align: left;
-  border: solid;
-  border-color: #98971a;
-  border-width: 1px;
-  font-size: 20px;
-}
-
-.main {
-  text-align: left;
-}
-
-.form{
-  text-align: initial;
+  background-color: #04032B;
+  color: #E1E1F1;
   margin: auto;
 }
 
-.domanda{
-  text-align: left;
-  font-size: 40px;
-}
-
-#title {
+div.title {
+  display: block;
+  width: 100%;
+  height: 150px;
   text-align: center;
-  border-bottom: double;
-  border-color: #98971a;
-  border-width: 10px;
-  color: #98971a;
-  font-size: 50px;
+  vertical-align: middle;
+  background-color: #242433;
+  border-bottom: 5px solid #5A5CE1;
+  top: 0px;
+  position: fixed;
 }
 
-input[type=radio] {
-    border: 0px;
-    width: 50px;
-    height: 50px;
-    color: #fbdbb2;
-    background-color: #282828;
+h1.title {
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
 }
 
-input[type=text] {
-    font-size: 30px;
-    border: solid;
-    color: #fbdbb2;
-    background-color: #282828;
-    width: 400px;
-    height: 70px;
-    border-radius: 10px;
+.main {
+  display: block;
+  margin: 175px auto;
+  max-width: 1000px;
+  min-width: 300px;
+  width: 1000px;
+  font-size: 20px;
 }
 
-input[type=submit] {
-    font-size: 30px;
-    border: solid;
-    color: #282828;
-    background-color: #fbdbb2;
-    width: 400px;
-    height: 70px;
-    border-radius: 10px;
+#name, #surname, #age, #origin, #money {
+  display: inline-block;
+  width: 350px;
+  height: 20px;
+  margin: 0 0 10px auto;
+  background-color: #101936;
+  color: #E1E1F1;
+  border: 2px solid #5A5CE1;
+  border-radius: 2px;
 }
 
-input[type=number] {
-    font-size: 30px;
-    border: solid;
-    color: #fbdbb2;
-    background-color: #282828;
-    width: 400px;
-    height: 70px;
-    border-radius: 10px;
+.id {
+  border: 2px solid #5A5CE1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+hr {
+  color: transparent;
+  background-color: transparent;
+}
+
+form {
+  overflow: hidden;
+}
+
+input, select {
+  float: right;
+  clear: both;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -82,17 +73,4 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
-}
-
-label {
-  font-size: 50px;
-}
-
-div.team {
-  border-bottom: groove;
-}
-
-div.data {
-  border-bottom: groove;
-  padding-bottom: 10px;
 }
