@@ -28,7 +28,7 @@ h1.title {
   margin: 175px auto;
   max-width: 1000px;
   min-width: 300px;
-  width: 1000px;
+  width: auto;
   font-size: 20px;
 }
 
@@ -61,6 +61,12 @@ form {
 input, select {
   float: right;
   clear: both;
+}
+
+
+elect:focus {
+  min-width: 150px;
+  width: auto;
 }
 
 /* Chrome, Safari, Edge, Opera */
