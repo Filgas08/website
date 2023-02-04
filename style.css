@@ -34,7 +34,7 @@ h1.title {
 
 #name, #surname, #age, #origin, #money {
   display: inline-block;
-  width: 350px;
+  width: 20vw;
   height: 20px;
   margin: 0 0 10px auto;
   background-color: #101936;
